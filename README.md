@@ -46,7 +46,7 @@ vi train.py
 ...
 fig = pd.read_csv("data/stage1/Train.txt")
 ...
-fig = pd.read_csv("data/stage1/Test.txt")
+fig_test = pd.read_csv("data/stage1/Test.txt")
 ```
 
  **If you want to use our model to train other DNA-related data, please use the data processing code (CGR Encoding) we provide to ensure that the shape of the data matches our model** 
