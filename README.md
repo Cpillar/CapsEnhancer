@@ -10,7 +10,7 @@ Enhancers are a class of non-coding DNA, serving as crucial regulatory elements 
 
 
 ### Dataset
-**Download form ：https://nsclbio.jbnu.ac.kr/tools/iEnhancer-RF/ **
+**Download form ：https://nsclbio.jbnu.ac.kr/tools/iEnhancer-RF/**
 
 ### Model
 
