@@ -85,7 +85,6 @@ test_dataset=TensorDataset(X_test,torch.tensor(y_test))
 train_loader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 test_loader=DataLoader(test_dataset, batch_size=batch_size, shuffle=True)
 
-best_acc=0
 for epoch in range(n_epochs):
     capsule_net.train()
     train_loss = 0
@@ -128,8 +127,4 @@ for epoch in range(n_epochs):
     with torch.inference_mode():
         avg_test_accuracy,recall_test,precision_test,tab=cal_acc(y_test,X_test,capsule_net)
         print(f"Test Accuracy: {avg_test_accuracy:.4f}, Test Recall: {recall_test:.4f},Test Precision:{precision_test:.4f}")
-
-    #Save the best model
-    if best_acc < avg_test_accuracy:
-          best_acc = avg_test_accuracy
-          torch.save(capsule_net,'model/capsule_net.pth')
+        torch.save(capsule_net,'model/capsule_net.pth')
