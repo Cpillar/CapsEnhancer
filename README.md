@@ -49,9 +49,9 @@ vi train.py
 
 ```
 ...
-fig = pd.read_csv("data/stage1/Train.txt")
+fig = pd.read_csv(<your_data_path>)
 ...
-fig_test = pd.read_csv("data/stage1/Test.txt")
+fig_test = pd.read_csv(<your_data_path>)
 ```
 
  **If you want to use our model to train other DNA-related data, please use the data processing code (CGR Encoding) we provide to ensure that the shape of the data matches our model** 
@@ -76,6 +76,6 @@ output: The output is a. txt format file that describes the generated DNA "image
 **For example:**
 
 ```shell
- Rscript generate_cgr.R dataset/stage1/Test DNA 64
+ Rscript generate_cgr.R <your_data_path> DNA 64
 ```
 
