@@ -12,7 +12,7 @@ If you have any questions, please contact us: lantianyao@link.cuhk.edu.cn (Lanti
 
 
 ### Dataset
-**This study used the benchmark datasets from the previous work: [iEnhancer-EL](https://academic.oup.com/bioinformatics/article/34/22/3835/5034432), you can download data from this paper.
+This study used the benchmark datasets from the previous work: [iEnhancer-EL](https://academic.oup.com/bioinformatics/article/34/22/3835/5034432), you can download data from this paper.
 
 
 ### Model
