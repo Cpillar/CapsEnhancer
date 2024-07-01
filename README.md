@@ -10,7 +10,7 @@ Enhancers are a class of non-coding DNA, serving as crucial regulatory elements 
 
 
 ### Dataset
-**This study used datasets from the previous work: [iEnhancer-EL](https://academic.oup.com/bioinformatics/article/34/22/3835/5034432#supplementary-data), you can download data from this link: [data](https://academic.oup.com/bioinformatics/article/34/22/3835/5034432#supplementary-data)**
+**This study used the benchmark datasets from the previous work: [iEnhancer-EL](https://academic.oup.com/bioinformatics/article/34/22/3835/5034432), you can download data from this paper.
 
 
 ### Model
